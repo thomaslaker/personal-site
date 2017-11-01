@@ -1,0 +1,9 @@
+.feed-card {
+    grid-column: 3 / span 5;
+    &:nth-last-of-type(2n+1) {
+        grid-column: 9 / span 5;
+    }
+    img {
+        width: 100%;
+    }
+}

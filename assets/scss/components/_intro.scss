@@ -1,0 +1,21 @@
+.intro {
+    grid-column: 3 / 14;
+}
+
+.intro__heading {
+	font-size: ms(2);
+	color: $bright-blue;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+    a {
+        color: $yellow;
+    }
+}
+
+.intro__cta {
+	color: $yellow;
+	text-align: center;
+	display: block;
+	margin: 0 auto 2rem;
+}

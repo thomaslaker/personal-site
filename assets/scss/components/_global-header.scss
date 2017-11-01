@@ -1,0 +1,13 @@
+.global-header {
+    grid-column: 3 / 14;
+    display: flex;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.global-header__subheadings {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    color: rgba(#fff, 0.3);
+}
